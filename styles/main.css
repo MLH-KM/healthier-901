@@ -2,3 +2,18 @@ html, body {
   background: #fff;
   font-family: 'Open Sans';
 }
+.h901-logo {
+  max-width: 180px;
+  height: auto;
+  z-index: 99;
+}
+.navbar {
+  border: 2px solid red;
+}
+@media screen and (min-width: 1440px) {
+  .navbar-collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
