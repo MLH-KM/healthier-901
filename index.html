@@ -18,10 +18,10 @@
   <title>HEALTHIER 901 | HOME</title>
 </head>
 <body>
-  <section class="nav-header">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
+  <header class="nav-header">
+    <nav class="navbar sticky navbar-expand-lg navbar-light bg-transparent">
       <a class="navbar-brand" href="#">
-        <img src="./assets/images/logo.png" class="h901-logo" alt=""The healthier 901 logo with the MLH sunburst">
+        <img src="./assets/images/logo.png" class="h901-logo" alt="The healthier 901 logo with the MLH sunburst">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,74 @@
         </div>
       </div>
     </nav>
-  </section>
+  </header>
+
+  <main>
+    <div class="container-fluid slider-container">
+      <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-block w-100">
+              <div class="col-md-3 d-flex flex-column mt-5 slide-flex">
+                <h1>
+                  HERO SLIDE
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pellentesque nibh nunc, vestibulum bibendum massa facilisis ut.
+                </p>
+                <a href="#" class="btn btn-primary">
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100">
+              <div class="col-md-3 d-flex flex-column mt-5 slide-flex">
+                <h1>
+                  HERO SLIDE 2
+                </h1>
+                <p>
+                  Integer a elit ex. Sed pulvinar sed sapien quis scelerisque. Proin volutpat sem sed erat facilisis elementum.
+                </p>
+                <a href="#" class="btn btn-primary">
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100">
+              <div class="col-md-3 d-flex flex-column mt-5 slide-flex">
+                <h1>
+                  HERO SLIDE 3
+                </h1>
+                <p>
+                  Duis mollis lobortis purus sit amet dapibus. Nullam efficitur ante eu velit bibendum consequat.
+                </p>
+                <a href="#" class="btn btn-primary">
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </main>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>

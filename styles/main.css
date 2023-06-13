@@ -7,8 +7,8 @@ html, body {
   height: auto;
   z-index: 99;
 }
-.navbar {
-  border: 2px solid red;
+.navbar-nav {
+
 }
 .nav-item {
   color: #b1005d;
@@ -19,10 +19,41 @@ html, body {
   color: #00a9e0;
   text-decoration: underline;
 }
+.slider-container {
+  margin-top: -6rem;
+  background: #00a9e0;
+  border: 2px solid #333;
+  height: 60vh;
+}
+.slide-flex {
+  margin-left: 15vw;
+  width: 20vw;
+}
+.btn-primary {
+  background: #b1005d;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #b1005d;
+  --bs-btn-border-color: #b1005d;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #b1005d;
+  --bs-btn-hover-border-color: #91004b;
+  --bs-btn-focus-shadow-rgb: 145, 0, 75;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #91004b;
+  --bs-btn-active-border-color: #91004b;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #b1005d;
+  --bs-btn-disabled-border-color: #b1005d;
+}
+.btn-primary:hover {
+  background: #91004b;
+}
 @media screen and (min-width: 1440px) {
   .navbar-collapse {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    padding-bottom: 5rem;
   }
 }
