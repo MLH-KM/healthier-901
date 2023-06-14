@@ -12,9 +12,6 @@ h1 {
   height: auto;
   z-index: 99;
 }
-.navbar-nav {
-
-}
 .nav-item {
   color: #b1005d;
   font-family: 'Roboto Condensed';
@@ -60,6 +57,9 @@ h1 {
 }
 .btn-primary:hover {
   background: #91004b;
+}
+.carousel-indicators {
+  position: bottom;
 }
 @media screen and (min-width: 1440px) {
   .navbar-collapse {
