@@ -30,6 +30,11 @@ h1 {
   border: 2px solid #333;
   height: 60vh;
 }
+.success-slider {
+  background: #00a9e0;
+  border: 2px solid #666;
+  padding-bottom: 1rem;
+}
 .carousel-slides {
   margin-top: 84px;
 }
@@ -63,6 +68,50 @@ h1 {
 }
 .carousel-indicators {
   position: bottom;
+}
+.event-btn {
+  padding: 2px 4px;
+}
+.event-btn:hover {
+  text-decoration: underline;
+}
+.p-1 {
+  font-size: 12px;
+  margin: 0;
+}
+.hc-card {
+  background: #00a9e0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hc-month,
+.hc-day {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.hc-month {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.event-card-full {
+  padding: 0;
+}
+p.card-title {
+  font-family: 'Roboto Condensed';
+  color: #00a9e0;
+  font-size: 1rem;
+}
+.card-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.card-divider {
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 @media screen and (min-width: 1440px) {
   .navbar-collapse {
