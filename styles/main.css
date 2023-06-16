@@ -66,6 +66,15 @@ h1 {
 .btn-primary:hover {
   background: #91004b;
 }
+.btn-outline-primary {
+  color: #fff;
+  outline: 1px solid #b1005d;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background: #b1005d;
+  border: none;
+}
 .carousel-indicators {
   position: bottom;
 }
