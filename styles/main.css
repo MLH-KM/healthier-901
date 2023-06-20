@@ -164,15 +164,22 @@ p.news-title:hover {
 p.news-text {
   margin: 0;
 }
+.sponsor-slider {
+  max-width: 80%;
+}
 .slider {
   overflow: hidden;
-  white-space: nowrap;
+}
+.sponsor-logo {
+  max-width: 300px;
+  height: auto;
   display: flex;
-  align-items: center;
+  flex-flow: row nowrap;
 }
 .logos {
   width: 100%;
-  animation: slider 5s linear infinite;
+  white-space: nowrap;
+  animation: slider 30s linear infinite;
 }
 @keyframes slider {
   from {
