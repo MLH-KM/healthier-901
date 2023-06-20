@@ -189,6 +189,55 @@ p.news-text {
     transform: translate3d(-100%, 0, 0);
   }
 }
+footer {
+  background: #333;
+  color: #fff;
+}
+.footer-logo {
+  max-width: 600px;
+  height: auto;
+}
+.footer-logo-text {
+  font-size: 14px;
+}
+ul a.footer-link {
+  font-size: 1rem;
+  color: #00a9e0;
+}
+a.footer-link {
+  color: #fff;
+  text-decoration: none
+}
+a.footer-link:hover {
+  text-decoration: underline;
+  color: #00a9e0;
+}
+.copy-footer {
+  font-size: 12px;
+  color: #eee;
+}
+.footer-social-icon {
+  width: 42px;
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin-right: 1rem;
+}
+.facebook:hover {
+  color: #fff;
+  background: #4267b2;
+}
+.twitter:hover {
+  color: #fff;
+  background: #1da1f2;
+}
+.instagram:hover {
+  color: #fff;
+  background: #962fbf;
+}
 @media screen and (min-width: 1440px) {
   .navbar-collapse {
     display: flex;
