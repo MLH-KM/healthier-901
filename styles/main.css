@@ -81,6 +81,15 @@ h1 {
 img.img-fluid {
   margin: 0;
 }
+.hc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.app-download {
+  max-width: 200px;
+  height: auto;
+}
 .hc-body {
   padding: 4px 0 4px 8px;
 }
@@ -243,6 +252,6 @@ a.footer-link:hover {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
   }
 }
