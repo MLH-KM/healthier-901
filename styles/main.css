@@ -30,11 +30,11 @@ h1 {
   border: 2px solid #333;
   height: 60vh;
 }
-.success-slider {
+/* .success-slider {
   background: #00a9e0;
   border: 2px solid #666;
   padding-bottom: 1rem;
-}
+} */
 .carousel-slides {
   margin-top: 84px;
 }
@@ -253,5 +253,23 @@ a.footer-link:hover {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 6rem;
+  }
+  .why-box {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar-toggler {
+    margin-right: 3rem;
+    margin-top: -6rem;
+    color: #b1005d;
+    z-index: 90;
+  }
+  .carousel-slides {
+    margin-top: 72px;
+  }
+  .slide-flex {
+    margin-left: 0;
+    width: 80%;
   }
 }
