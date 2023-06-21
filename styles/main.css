@@ -180,10 +180,11 @@ p.news-text {
   overflow: hidden;
 }
 .sponsor-logo {
-  max-width: 300px;
+  max-width: 180px; /* temporary- will change back to 300px */
   height: auto;
   display: flex;
   flex-flow: row nowrap;
+  margin-right: 96px; /* temporary- will delete when we have sponsor images */
 }
 .logos {
   width: 100%;
