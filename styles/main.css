@@ -26,8 +26,9 @@ h1 {
 }
 .slider-container {
   margin-top: -6rem;
-  background: #666;
-  border: 2px solid #333;
+  background-image: url("../assets/images/shelby-farms.jpg");
+  background-size: cover;
+  /* border: 2px solid #333; */
   height: 60vh;
 }
 /* .success-slider {
@@ -38,12 +39,18 @@ h1 {
 .carousel-slides {
   margin-top: 84px;
 }
+.slide-title {
+  color: #333;
+}
 .slide-flex {
   margin-left: 15vw;
   width: 22vw;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 8px;
+  border-radius: 6px;
 }
 .slider-text {
-  color: #fff;
+  color: #333;
   font-size: clamp(1.25rem, 5vw, 1rem);
 }
 .btn-primary {
