@@ -93,9 +93,24 @@ img.img-fluid {
   flex-direction: column;
   justify-content: center;
 }
+.app-badges {
+  display: flex;
+}
 .app-download {
-  max-width: 200px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-bottom: 0;
+}
+.play {
+  margin-right: 12px;
+}
+.download-badge {
+  max-width: 300px;
   height: auto;
+}
+.app-download {
+  list-style: none;
 }
 .hc-body {
   padding: 4px 0 4px 8px;
@@ -180,6 +195,10 @@ p.news-title:hover {
 p.news-text {
   margin: 0;
 }
+.well-text {
+  font-size: clamp(1.15rem, 5vw, 1rem);
+  width: 75%;
+}
 .sponsor-slider {
   max-width: 80%;
 }
@@ -263,6 +282,9 @@ a.footer-link:hover {
 .f-nav-1 {
   padding-right: 2rem;
 }
+.card-full {
+  width: 18rem;
+}
 @media screen and (min-width: 1440px) {
   .navbar-collapse {
     display: flex;
@@ -274,7 +296,7 @@ a.footer-link:hover {
     width: 50vw;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .navbar-toggler {
     margin-right: 3rem;
     margin-top: -6rem;
@@ -282,11 +304,20 @@ a.footer-link:hover {
     z-index: 90;
   }
   .carousel-slides {
-    margin-top: 72px;
+    margin-top: 84px;
   }
   .slide-flex {
-    margin-left: 0;
-    width: 80%;
+    margin: 0 auto;
+    width: 90vw;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 8px;
+    border-radius: 6px;
+  }
+  .why-box {
+    width: 80vw;
+  }
+  .well-text {
+    width: 90%;
   }
   .mobile-footer-links {
     display: flex;
@@ -295,5 +326,12 @@ a.footer-link:hover {
   }
   .f-nav-1 {
     padding-right: 1rem;
+  }
+  .event-card-full {
+    width: 90vw;
+  }
+  .card-full {
+    width: 90vw;
+    margin-bottom: 1.5rem;
   }
 }
