@@ -248,6 +248,7 @@ a.footer-link:hover {
 .copy-footer {
   font-size: 12px;
   color: #eee;
+  overflow: hidden;
 }
 .footer-social-icon {
   width: 42px;
