@@ -25,14 +25,8 @@ h1 {
   margin-top: -6rem;
   background-image: url("../assets/images/shelby-farms.jpg");
   background-size: cover;
-  /* border: 2px solid #333; */
   height: 60vh;
 }
-/* .success-slider {
-  background: #00a9e0;
-  border: 2px solid #666;
-  padding-bottom: 1rem;
-} */
 .carousel-slides {
   margin-top: 84px;
 }
@@ -72,7 +66,7 @@ h1 {
 }
 .btn-outline-primary {
   color: #fff;
-  outline: 1px solid #b1005d;
+  outline: 1px solid #fff;
 }
 .btn-outline-primary:hover {
   color: #fff;
@@ -223,7 +217,7 @@ p.news-text {
   }
 }
 footer {
-  background: #333;
+  background: #00a9e0;
   color: #fff;
 }
 .footer-logo {
@@ -233,44 +227,41 @@ footer {
 .footer-logo-text {
   font-size: 14px;
 }
-ul a.footer-link {
-  font-size: 1rem;
-  color: #00a9e0;
-}
-a.footer-link {
-  color: #fff;
-  text-decoration: none
-}
-a.footer-link:hover {
-  text-decoration: underline;
-  color: #00a9e0;
-}
 .copy-footer {
   font-size: 12px;
   color: #eee;
-  overflow: hidden;
+}
+.mlh-link-footer {
+  text-decoration: none;
+  color: #fff;
+}
+.mlh-link-footer:hover {
+  color: #b10057;
 }
 .footer-social-icon {
-  width: 42px;
+  width: 72px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 2.5rem;
   color: #fff;
-  border: 2px solid #333;
+  border: 2px solid #00a9e0;
   border-radius: 5px;
-  padding: 8px 10px;
+  padding: 8px;
   margin-right: 1rem;
 }
 .facebook:hover {
   color: #fff;
   background: #4267b2;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
 }
 .twitter:hover {
   color: #fff;
   background: #1da1f2;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
 }
 .instagram:hover {
   color: #fff;
   background: #962fbf;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
 }
 .mobile-footer-links {
   display: flex;
@@ -289,6 +280,12 @@ a.footer-link:hover {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 6rem;
+  }
+  .navbar-nav li {
+    padding-right: 3rem;
+  }
+  .navbar-nav li:last-child {
+    padding-right: 0;
   }
   .why-box {
     width: 50vw;
