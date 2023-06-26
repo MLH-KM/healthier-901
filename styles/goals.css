@@ -4,3 +4,23 @@
   background-size: cover;
   height: 60vh;
 }
+.goals-img-1 {
+  max-width: 500px;
+  height: auto;
+}
+.goals-learn-btn {
+  color: #000;
+}
+.goals-learn-btn:hover {
+  color: #fff;
+}
+@media screen and (min-width: 1440px) {
+  .your-goals {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .your-goals {
+    width: 80vw;
+  }
+}
