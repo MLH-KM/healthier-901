@@ -3,6 +3,9 @@ html, body {
   font-family: 'Open Sans';
   color: #333;
 }
+main {
+  margin-top: 7rem;
+}
 h1 {
   font-size: clamp(3rem, 5vw, 2.5rem);
   color: #fff;
@@ -22,7 +25,6 @@ h1 {
   text-decoration: underline;
 }
 .slider-container {
-  margin-top: 7rem;
   padding-top: 2rem;
   background-image: url("../assets/images/shelby-farms.jpg");
   background-size: cover;
@@ -283,6 +285,11 @@ footer {
 }
 .card-full {
   width: 18rem;
+}
+.success {
+  background-image: url("../assets/images/sample-success-header.jpg");
+  background-size: contain;
+  height: 60vh;
 }
 @media screen and (min-width: 1440px) {
   .navbar-collapse {
