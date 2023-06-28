@@ -1,6 +1,6 @@
 .goals {
   margin-top: -6rem;
-  background-image: url("../assets/images/isaac-smith-8XlMU62ii8I-unsplash.jpg");
+  background-image: url("../assets/images/sample-goals-header.jpg");
   background-size: cover;
   height: 60vh;
 }
@@ -10,6 +10,7 @@
 }
 .goals-learn-btn {
   color: #000;
+  border: 1px solid #b1005d;
 }
 .goals-learn-btn:hover {
   color: #fff;
