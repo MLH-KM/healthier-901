@@ -186,6 +186,18 @@ p.news-title:hover {
 }
 p.news-text {
   margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+p.news-link {
+  margin-bottom: 0;
+  padding: 8px 0 0 0;
+  font-size: 12px;
+}
+a.news-text-link {
+  text-decoration: none;
 }
 .well-text {
   font-size: clamp(1.15rem, 5vw, 1rem);
