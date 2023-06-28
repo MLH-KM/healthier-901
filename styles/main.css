@@ -233,10 +233,6 @@ footer {
   background: #00a9e0;
   color: #fff;
 }
-.footer-logo {
-  max-width: 600px;
-  height: auto;
-}
 .footer-logo-text {
   font-size: 14px;
 }
@@ -245,41 +241,42 @@ footer {
   color: #eee;
 }
 .mlh-link-footer {
+  border-bottom: 2px solid #fff;
   text-decoration: none;
   color: #fff;
 }
 .mlh-link-footer:hover {
   color: #b10057;
+  border-bottom: 2px solid #b1005d;
 }
 .footer-social-icon {
-  width: 72px;
+  width: 60px;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #fff;
-  border: 2px solid #00a9e0;
-  border-radius: 5px;
-  padding: 8px;
   margin-right: 1rem;
+  text-decoration: none;
 }
-.facebook:hover {
-  color: #fff;
-  background: #4267b2;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
-}
-.twitter:hover {
-  color: #fff;
-  background: #1da1f2;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
-}
+.facebook:hover,
+.twitter:hover,
 .instagram:hover {
-  color: #fff;
-  background: #962fbf;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
+  color: #b1005d;
 }
-.mobile-footer-links {
+.footer-policy-link {
+  margin: 1rem 0 0 0;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.policy-link {
+  text-decoration: none;
+  color: #fff;
+  border: none;
+}
+.policy-link:hover {
+  color: #b1005d;
+  text-decoration: underline;
 }
 .f-nav-1 {
   padding-right: 2rem;
@@ -326,11 +323,6 @@ footer {
   }
   .well-text {
     width: 90%;
-  }
-  .mobile-footer-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
   }
   .f-nav-1 {
     padding-right: 1rem;
