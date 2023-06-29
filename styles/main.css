@@ -304,7 +304,7 @@ footer {
   .navbar-nav li:last-child {
     padding-right: 0;
   }
-  .why-box {
+  .hg-box {
     width: 50vw;
   }
 }
@@ -325,7 +325,7 @@ footer {
     padding: 8px;
     border-radius: 6px;
   }
-  .why-box {
+  .hg-box {
     width: 80vw;
   }
   .well-text {
