@@ -201,6 +201,9 @@ p.news-link {
 a.news-text-link {
   text-decoration: none;
 }
+.hg-box {
+  font-size: clamp(1.15rem, 5vw, 1rem);
+}
 .well-text {
   font-size: clamp(1.15rem, 5vw, 1rem);
   width: 75%;
