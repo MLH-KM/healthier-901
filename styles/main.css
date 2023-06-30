@@ -286,9 +286,9 @@ footer {
 .card-full {
   width: 18rem;
 }
-.success {
-  background-image: url("../assets/images/sample-success-header.jpg");
-  background-size: contain;
+.cta-container {
+  background-image: url("../assets/images/healthier901-v1-cta.png");
+  background-size: cover;
   height: 60vh;
 }
 @media screen and (min-width: 1440px) {
@@ -306,6 +306,12 @@ footer {
   }
   .hg-box {
     width: 50vw;
+  }
+  .app-download {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    padding-left: 0;
   }
 }
 @media screen and (max-width: 600px) {
