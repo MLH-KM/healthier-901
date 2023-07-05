@@ -297,6 +297,9 @@ footer {
   background-size: cover;
   height: 60vh;
 }
+.about-h901 {
+  border-radius: 7px;
+}
 @media screen and (min-width: 1440px) {
   .navbar-collapse {
     display: flex;
@@ -334,7 +337,8 @@ footer {
   .hg-box {
     width: 80vw;
   }
-  .well-text {
+  .well-text,
+  .about-text {
     width: 90%;
   }
   .f-nav-1 {
