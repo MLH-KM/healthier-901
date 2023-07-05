@@ -10,6 +10,9 @@ h1 {
   font-size: clamp(3rem, 5vw, 2.5rem);
   color: #fff;
 }
+h2 {
+  font-weight: bold;
+}
 .h901-logo {
   max-width: 75px;
   height: auto;
