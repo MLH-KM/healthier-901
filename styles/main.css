@@ -312,6 +312,10 @@ a.sponsor-name {
   margin-top: 12px;
   color: #333;
 }
+a.sponsor-name:hover {
+  color: #00a9e0;
+  text-decoration: underline;
+}
 @media screen and (min-width: 1440px) {
   .navbar-collapse {
     display: flex;
