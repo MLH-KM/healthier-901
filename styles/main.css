@@ -215,6 +215,10 @@ a.news-text-link {
   font-size: clamp(1.15rem, 5vw, 1rem);
   width: 75%;
 }
+.app-screen img {
+  max-width: 100px;
+  height: auto;
+}
 .sponsor-slider {
   max-width: 80%;
 }
@@ -304,11 +308,19 @@ footer {
 .about-h901 {
   border-radius: 7px;
 }
-.sponsors {
-  max-width: 400px;
+.sponsors-1 {
+  max-width: 300px;
+  height: auto;
+}
+.sponsors-2 {
+  max-width: 200px;
   height: auto;
   border-radius: 7px;
-  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.25);
+}
+.sponsors-3 {
+  max-width: 150px;
+  height: auto;
+  border-radius: 7px;
 }
 a.sponsor-name {
   text-decoration: none;
@@ -319,9 +331,6 @@ a.sponsor-name {
 a.sponsor-name:hover {
   color: #00a9e0;
   text-decoration: underline;
-}
-.sponsors:hover {
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.75);
 }
 @media screen and (min-width: 1440px) {
   .navbar-collapse {
