@@ -90,26 +90,12 @@ img.img-fluid {
   flex-direction: column;
   justify-content: center;
 }
-.app-badges {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 .app-download {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 0;
-}
-.play {
-  margin-right: 12px;
-}
-.download-badge {
-  max-width: 300px;
-  height: auto;
-}
-.app-download {
-  list-style: none;
 }
 .hc-body {
   padding: 4px 0 4px 8px;
@@ -214,13 +200,17 @@ a.news-text-link {
   background-size: cover;
 }
 .well-text {
-  font-size: clamp(1.15rem, 5vw, 1rem);
+  font-size: clamp(1.25rem, 5vw, 1rem);
+  width: 75%;
 }
 img.app-screen {
   max-width: 200px;
   height: auto;
   padding-bottom: 3rem;
   margin: -2rem 0 0 0;
+}
+.app-button {
+  padding: 8px 2rem;
 }
 .sponsor-slider {
   max-width: 80%;
@@ -350,12 +340,6 @@ a.sponsor-name:hover {
   }
   .hg-box {
     width: 50vw;
-  }
-  .app-download {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: start;
-    padding-left: 0;
   }
 }
 @media screen and (max-width: 600px) {
