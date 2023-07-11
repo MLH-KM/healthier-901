@@ -92,6 +92,8 @@ img.img-fluid {
 }
 .app-badges {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .app-download {
   display: flex;
@@ -213,11 +215,12 @@ a.news-text-link {
 }
 .well-text {
   font-size: clamp(1.15rem, 5vw, 1rem);
-  width: 75%;
 }
-.app-screen img {
-  max-width: 100px;
+img.app-screen {
+  max-width: 200px;
   height: auto;
+  padding-bottom: 3rem;
+  margin: -2rem 0 0 0;
 }
 .sponsor-slider {
   max-width: 80%;
