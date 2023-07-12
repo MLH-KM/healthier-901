@@ -241,6 +241,10 @@ img.app-screen {
 }
 footer {
   background: #00a9e0;
+  background-image: url("../assets/images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: #fff;
 }
 .footer-logo-text {
