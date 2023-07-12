@@ -198,16 +198,18 @@ a.news-text-link {
 .wellness-app {
   background-image: url("../assets/images/app-image-v1.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 .well-text {
   font-size: clamp(1.25rem, 5vw, 1rem);
   width: 75%;
 }
 img.app-screen {
-  max-width: 200px;
+  max-width: 250px;
   height: auto;
-  padding-bottom: 3rem;
-  margin: -2rem 0 0 0;
+  padding-bottom: 2rem;
+  margin: 0;
 }
 .app-button,
 .ready-btn {
