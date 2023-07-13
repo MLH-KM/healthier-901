@@ -381,6 +381,15 @@ a.sponsor-name:hover {
     max-width: 90%;
     margin: 0 auto;
   }
+  .wellness-app {
+    height: 130vh;
+  }
+  img.app-screen {
+    margin: 0 auto;
+  }
+  .well-text {
+    margin-bottom: 5rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .navbar-toggler {
