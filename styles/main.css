@@ -20,12 +20,12 @@ h2 {
   padding-left: 1rem;
 }
 .nav-link {
-  color: #00a9e0;
+  color: #b1005d;
   font-family: 'Roboto Condensed';
   font-size: 1.1rem;
 }
 .nav-link:hover {
-  color: #b1005d;
+  color: #00a9e0;
   text-decoration: underline;
 }
 .slider-container {
