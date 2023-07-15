@@ -11,6 +11,7 @@ h1 {
   color: #fff;
 }
 h2 {
+  font-size: clamp(2.5rem, 5vw, 2rem);
   font-weight: bold;
 }
 .h901-logo {
@@ -200,14 +201,14 @@ a.news-text-link {
   background-image: url("../assets/images/app-image-v1.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 85vh;
 }
 .well-text {
-  font-size: clamp(1.25rem, 5vw, 1rem);
+  font-size: clamp(1.5rem, 5vw, 1rem);
   width: 75%;
 }
 img.app-screen {
-  max-width: 250px;
+  max-width: 300px;
   height: auto;
   padding-bottom: 2rem;
   margin: 0;
@@ -348,6 +349,9 @@ a.sponsor-name:hover {
   }
   .hg-box {
     width: 50vw;
+  }
+  .wellness-app {
+    height: 90vh;
   }
 }
 @media screen and (max-width: 600px) {
