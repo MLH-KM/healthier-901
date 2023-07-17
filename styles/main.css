@@ -6,6 +6,9 @@ html, body {
 main {
   margin-top: 84px;
 }
+img {
+  border-radius: 6px;
+}
 h1 {
   font-size: clamp(3rem, 5vw, 2.5rem);
   color: #fff;
@@ -13,6 +16,10 @@ h1 {
 h2 {
   font-size: clamp(2.5rem, 5vw, 2rem);
   font-weight: bold;
+}
+h3 {
+  font-size: clamp(2rem, 5vw, 1.5rem);
+  color: #b1005d;
 }
 .h901-logo {
   max-width: 101px;
@@ -243,21 +250,19 @@ img.app-screen {
     transform: translate3d(-100%, 0, 0);
   }
 }
-.goals {
-  background-image: url("../assets/images/sample-goals-header.jpg");
+.resources {
+  background-image: url("../assets/images/fitness-resources.png");
   background-size: cover;
-  height: 60vh;
+  background-repeat: no-repeat;
+  height: 80vh;
 }
-.goals-img-1 {
-  max-width: 500px;
-  height: auto;
+.rg-box {
+  font-size: clamp(1.25rem, 5vw, 1rem);
+  width: 80vw;
 }
-.goals-learn-btn {
-  color: #000;
-  border: 1px solid #b1005d;
-}
-.goals-learn-btn:hover {
-  color: #fff;
+.res-box {
+  font-size: 1.05rem;
+  width: 90%;
 }
 footer {
   background: #00a9e0;
@@ -410,6 +415,9 @@ a.sponsor-name:hover {
   }
   .well-text {
     margin-bottom: 5rem;
+  }
+  .rg-box {
+    width: 90vw;
   }
 }
 @media screen and (max-width: 768px) {
