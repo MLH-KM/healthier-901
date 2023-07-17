@@ -369,9 +369,6 @@ a.sponsor-name:hover {
   .wellness-app {
     height: 90vh;
   }
-  .your-goals {
-    width: 50vw;
-  }
 }
 @media screen and (max-width: 600px) {
   .carousel-slides {
@@ -413,9 +410,6 @@ a.sponsor-name:hover {
   }
   .well-text {
     margin-bottom: 5rem;
-  }
-  .your-goals {
-    width: 80vw;
   }
 }
 @media screen and (max-width: 768px) {
