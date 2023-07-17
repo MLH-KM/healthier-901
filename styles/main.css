@@ -243,6 +243,22 @@ img.app-screen {
     transform: translate3d(-100%, 0, 0);
   }
 }
+.goals {
+  background-image: url("../assets/images/sample-goals-header.jpg");
+  background-size: cover;
+  height: 60vh;
+}
+.goals-img-1 {
+  max-width: 500px;
+  height: auto;
+}
+.goals-learn-btn {
+  color: #000;
+  border: 1px solid #b1005d;
+}
+.goals-learn-btn:hover {
+  color: #fff;
+}
 footer {
   background: #00a9e0;
   background-image: url("../assets/images/footer-bg.png");
@@ -353,6 +369,9 @@ a.sponsor-name:hover {
   .wellness-app {
     height: 90vh;
   }
+  .your-goals {
+    width: 50vw;
+  }
 }
 @media screen and (max-width: 600px) {
   .carousel-slides {
@@ -394,6 +413,9 @@ a.sponsor-name:hover {
   }
   .well-text {
     margin-bottom: 5rem;
+  }
+  .your-goals {
+    width: 80vw;
   }
 }
 @media screen and (max-width: 768px) {
