@@ -429,6 +429,9 @@ a.sponsor-name:hover {
   .well-text {
     margin-bottom: 5rem;
   }
+  #health-resources {
+    margin-top: -160px;
+  }
   .rg-box {
     width: 90vw;
   }
