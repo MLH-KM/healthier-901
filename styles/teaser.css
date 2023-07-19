@@ -29,19 +29,22 @@ h2 {
 }
 #nmbrs {
   width: 100vw;
+  height: 100%;
   background: #666;
-  background-image: url('../assets/teaser/images/GettyImages-1339086355_RET_4.jpg');
-  position: contain;
+  background-image: url('../assets/teaser/images/nmbrs_bg.jpg');
   background-repeat: no-repeat;
-  background-position: top left 10%;
-}
-#skyline {
-  background: #00a9e0;
+  background-position: 0px -425px;
 }
 #signupForm {
-  margin: 0 auto;
-  z-index: 99;
+  margin: 0  auto;
+  margin-top: -108px;
+  z-index: 999;
   width: 50vw;
+}
+.signup-text {
+  font-family: 'Arial';
+  font-size: clamp(1.5rem, 5vw, 2.25rem);
+  padding: 16px 96px;
 }
 .box-top {
   background: #d4305e;
@@ -50,8 +53,58 @@ h2 {
 .box-bottom {
   border: 3px solid #d4305e;
 }
+.box-bottom {
+  background: #fff;
+}
 .facebook,
 .instagram {
   color: #d4305e;
   font-size: 36px;
+}
+.facebook {
+  margin: 0 1rem;
+}
+.tapIn-text {
+  font-family: 'HelveticaNeue';
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.form-control {
+  padding: 8px 16px;
+  max-width: 400px;
+  text-align: center;
+  font-family: 'HelveticaNeue';
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+.signup-btn {
+  font-family: 'HelveticaNeue';
+  font-size: 2rem;
+  padding: 8px 1.5rem;
+  background-color: #00a9e0;
+}
+.signup-btn:hover {
+  background-color: #0096c7;
+}
+#poweredBy {
+  width: 100vw;
+  z-index: 9;
+  margin-top: -184px;
+}
+.skyline {
+  background: #00a9e0;
+  background-image: url('../assets/teaser/images/skyline.png');
+  padding-top: 184px;
+  height: 1005;
+}
+.powerText {
+  font-family: 'Arial';
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  color: #333;
+  font-weight: bold;
+  padding: 1rem;
+}
+.powerLogo {
+  max-width: 400px;
+  height: auto;
 }
