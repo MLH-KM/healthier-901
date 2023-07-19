@@ -1,17 +1,32 @@
 @font-face {
   font-family: 'Arial';
-  src: url('../assets/fonts/arial.ttf') format('truetype');
+  src: url('../assets/teaser/fonts/Arial.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Arial Bold';
-  src: url('../assets/fonts/Arial-Bold.ttf') format('truetype');
+  src: url('../assets/teaser/fonts/Arial-Bold.ttf') format('truetype');
   font-weight: bold;
 }
 @font-face {
   font-family: 'HelveticaNeue';
-  src: url('../assets/fonts/HelveticaNeue.ttf') format('truetype');
+  src: url('../assets/teaser/fonts/HelveticaNeue.ttf') format('truetype');
 }
 .h901-logo {
-  max-width: 144px;
+  max-width: 153px;
   height: auto;
+}
+h1 {
+  font-family: 'Arial';
+  font-size: clamp(2rem, 5vw, 2.5rem);
+  color: #00a9e0;
+  font-weight: bold;
+}
+h2 {
+  font-family: 'Arial';
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  color: #00a9e0;
+  font-weight: bold;
+}
+#skyline {
+  background: #00a9e0;
 }
