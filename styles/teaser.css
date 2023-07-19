@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Arial';
+  src: url('../assets/fonts/arial.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Arial Bold';
+  src: url('../assets/fonts/Arial-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../assets/fonts/HelveticaNeue.ttf') format('truetype');
+}
 .h901-logo {
   max-width: 180px;
   height: auto;
