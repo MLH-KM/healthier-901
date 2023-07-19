@@ -27,6 +27,31 @@ h2 {
   color: #00a9e0;
   font-weight: bold;
 }
+#nmbrs {
+  width: 100vw;
+  background: #666;
+  background-image: url('../assets/teaser/images/GettyImages-1339086355_RET_4.jpg');
+  position: contain;
+  background-repeat: no-repeat;
+  background-position: top left 10%;
+}
 #skyline {
   background: #00a9e0;
+}
+#signupForm {
+  margin: 0 auto;
+  z-index: 99;
+  width: 50vw;
+}
+.box-top {
+  background: #d4305e;
+}
+.box-top,
+.box-bottom {
+  border: 3px solid #d4305e;
+}
+.facebook,
+.instagram {
+  color: #d4305e;
+  font-size: 36px;
 }
