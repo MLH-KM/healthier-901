@@ -11,9 +11,9 @@
   font-family: 'HelveticaNeue';
   src: url('../assets/teaser/fonts/HelveticaNeue.ttf') format('truetype');
 }
-html {
+main {
   width: 80vw;
-  margin: 0 auto;
+  padding: 0;
 }
 h1 {
   font-family: 'Arial';
@@ -30,7 +30,8 @@ h2 {
 }
 #nmbrs {
   margin: 0 auto;
-  width: 78vw;
+  width: 80vw;
+  z-index: 2;
 }
 .h901-logo {
   max-width: 144px;
@@ -54,6 +55,7 @@ h2 {
   font-size: 1.1rem;
 }
 #signupForm {
+  position: relative;
   margin: 0  auto;
   margin-top: -48px;
   z-index: 99;
@@ -112,16 +114,17 @@ h2 {
 .signup-btn:hover {
   background-color: #0096c7;
 }
-#poweredBy {
+#mlhPowered {
   width: 80vw;
-  z-index: 9;
-  /* background: #54565b; */
-  margin: 3rem 0;
+  z-index: 1;
+  margin-top: -240px;
 }
 .skyline {
-  /* margin-top: 265px; */
-  width: 80vw;
+  padding: 0;
+}
+.poweredBox {
   margin: 0 auto;
+  margin-top: -525px;
 }
 .powerText {
   font-family: 'Arial Bold';
@@ -136,5 +139,6 @@ h2 {
   height: auto;
 }
 footer {
-  background: #54565b;
+  width: 80vw;
+  background: #55565b;
 }
