@@ -11,6 +11,9 @@
   font-family: 'HelveticaNeue';
   src: url('../assets/teaser/fonts/HelveticaNeue.ttf') format('truetype');
 }
+main {
+  background: #00a9e0;
+}
 .h901-logo {
   max-width: 153px;
   height: auto;
@@ -23,9 +26,10 @@ h1 {
 }
 h2 {
   font-family: 'Arial';
-  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-size: clamp(1.75rem, 5vw, 2.5rem);
   color: #00a9e0;
   font-weight: bold;
+  text-shadow: 1px 2px 2px #000;
 }
 #nmbrs {
   width: 100vw;
@@ -35,9 +39,16 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
 }
+.change-text {
+  margin-top: 400px;
+}
+.change-p {
+  font-family: 'HelveticaNeue';
+  font-size: 1.4rem;
+}
 #signupForm {
   margin: 0  auto;
-  /* margin-top: -144px; */
+  margin-top: -60px;
   z-index: 999;
   width: 50vw;
 }
@@ -74,7 +85,7 @@ h2 {
   max-width: 400px;
   text-align: center;
   font-family: 'HelveticaNeue';
-  font-size: 2rem;
+  font-size: 1.7rem;
   letter-spacing: 3px;
 }
 .signup-btn {
@@ -89,12 +100,17 @@ h2 {
 #poweredBy {
   width: 100vw;
   z-index: 9;
-  /* margin-top: -184px; */
+  background: #00a9e0;
+  margin: 3rem 0;
 }
 .skyline {
   background: #00a9e0;
   background-image: url('../assets/teaser/images/skyline.png');
-  padding-top: 184px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  /* margin-top: 265px; */
+  max-width: 100vw;
+  padding: 0;
 }
 .powerText {
   font-family: 'Arial';
@@ -106,4 +122,7 @@ h2 {
 .powerLogo {
   max-width: 400px;
   height: auto;
+}
+footer {
+  background: #54565b;
 }
