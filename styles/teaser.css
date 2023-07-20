@@ -15,10 +15,6 @@ html {
   width: 80vw;
   margin: 0 auto;
 }
-.h901-logo {
-  max-width: 153px;
-  height: auto;
-}
 h1 {
   font-family: 'Arial';
   font-size: clamp(2rem, 5vw, 4rem);
@@ -27,36 +23,49 @@ h1 {
 }
 h2 {
   font-family: 'Arial';
-  font-size: clamp(1.75rem, 5vw, 2.5rem);
+  font-size: clamp(1.75rem, 5vw, 2rem);
   color: #00a9e0;
   font-weight: bold;
-  text-shadow: 1px 2px 2px #000;
+  letter-spacing: 2px;
 }
 #nmbrs {
   margin: 0 auto;
-  width: 80vw;
-  min-height: 100vh;
+  width: 78vw;
+}
+.h901-logo {
+  max-width: 144px;
+  height: auto;
+  margin-top: 1rem;
+}
+.powerNumbers {
   background: #666;
-  background-image: url('../assets/teaser/images/test2.jpg');
+  background-image: url('../assets/teaser/images/background1.png');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 15%;
+  background-size: 100%;
 }
 .change-text {
-  margin-top: 400px;
+  margin-top: 650px;
+  width: 55vw;
+  padding-bottom: 72px;
 }
 .change-p {
   font-family: 'HelveticaNeue';
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 #signupForm {
   margin: 0  auto;
-  z-index: 999;
-  width: 50vw;
+  margin-top: -48px;
+  z-index: 99;
+  width: 48vw;
 }
 .signup-text {
   font-family: 'Arial';
-  font-size: clamp(1.5rem, 5vw, 2.25rem);
-  padding: 16px 96px;
+  font-size: clamp(1.5rem, 5vw, 1.75rem);
+  padding: 16px 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 32px;
 }
 .box-top {
   background: #d4305e;
@@ -71,27 +80,32 @@ h2 {
 .facebook,
 .instagram {
   color: #d4305e;
-  font-size: 36px;
+  font-size: 48px;
 }
 .facebook {
-  margin: 0 1rem;
+  margin: 0 1.25rem;
+}
+.instagram {
+  margin-right: 1.25rem;
 }
 .tapIn-text {
   font-family: 'HelveticaNeue';
-  font-size: 1.5rem;
-  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  letter-spacing: 2px;
 }
 .form-control {
   padding: 8px 16px;
   max-width: 400px;
   text-align: center;
   font-family: 'HelveticaNeue';
-  font-size: 1.7rem;
-  letter-spacing: 3px;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
 }
 .signup-btn {
   font-family: 'HelveticaNeue';
-  font-size: 2rem;
+  font-size: 1.2rem;
   padding: 8px 1.5rem;
   background-color: #00a9e0;
 }
@@ -101,7 +115,7 @@ h2 {
 #poweredBy {
   width: 80vw;
   z-index: 9;
-  background: #00a9e0;
+  /* background: #54565b; */
   margin: 3rem 0;
 }
 .skyline {
@@ -110,11 +124,12 @@ h2 {
   margin: 0 auto;
 }
 .powerText {
-  font-family: 'Arial';
+  font-family: 'Arial Bold';
   font-size: clamp(1.5rem, 5vw, 2rem);
   color: #333;
   font-weight: bold;
   padding: 1rem;
+  letter-spacing: 2px;
 }
 .powerLogo {
   max-width: 400px;
