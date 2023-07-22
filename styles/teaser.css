@@ -80,15 +80,17 @@ h2 {
   background: #fff;
 }
 .facebook,
-.instagram {
+.instagram,
+.twitter {
   color: #d4305e;
   font-size: 48px;
 }
 .facebook {
-  margin: 0 1.25rem;
+  margin: 0 1rem 0 8px;
 }
-.instagram {
-  margin-right: 1.25rem;
+.instagram,
+.twitter {
+  margin-right: 1rem;
 }
 .tapIn-text {
   font-family: 'HelveticaNeue';
