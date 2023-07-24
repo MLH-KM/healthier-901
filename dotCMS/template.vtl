@@ -9,9 +9,9 @@
 
 <body id="$utilClass" class="#if($EDIT_MODE) edit-mode #end">
 
-    #if($dotThemeLayout.header)
-        #dotParse("${dotTheme.path}header.vtl")
-    #end
+    ## #if($dotThemeLayout.header)
+    ##     #dotParse("${dotTheme.path}header.vtl")
+    ## #end
 
     <main class="$!{dotPageContent.banner.selectValue} page-$!{dotPageContent.color.selectValue}">
     
@@ -127,9 +127,9 @@
             #end
     </main>
 
-    #if($dotThemeLayout.footer)
-        #dotParse("${dotTheme.path}footer.vtl")
-    #end
+    ## #if($dotThemeLayout.footer)
+    ##     #dotParse("${dotTheme.path}footer.vtl")
+    ## #end
 
 </body>
 </html>
