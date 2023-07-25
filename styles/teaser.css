@@ -42,8 +42,11 @@ h2 {
 }
 .change-text {
   margin-top: 650px;
-  width: 55vw;
   padding-bottom: 72px;
+  width: 55vw;
+}
+.change-box {
+  width: 50vw;
 }
 .change-p {
   font-family: 'Inter';
