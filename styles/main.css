@@ -43,28 +43,10 @@ h3 {
 .nav-button:hover {
   color: #fff;
 }
-.slider-container {
-  background-image: url("../assets/images/shelby-farms.jpg");
+.h901-fest-banner {
+  background: url('../../assets/images/GettyImages-1051015366.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh;
-}
-.carousel-slides {
-  margin-top: 84px;
-}
-.rotator {
-  padding-top: 120px;
-}
-.slide-content {
-  background: rgba(255, 255, 255, 0.75);
-  padding: 8px;
-  border-radius: 6px;
-}
-.slide-title {
-  color: #333;
-}
-.slider-text {
-  color: #333;
-  font-size: clamp(1.25rem, 5vw, 1rem);
 }
 .btn-primary {
   background: #b1005d;
