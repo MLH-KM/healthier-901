@@ -1,0 +1,30 @@
+<div class="container-fluid banner" style="background-image: url('/dA/$dotContentMap.identifier/1400w/70q/$dotContentMap.image.name'); background-size: cover;">
+  <h1 class="text-left pt-3"
+    #if ($EDIT_MODE) 
+      data-language="${CONTENT_LANGUAGE}"
+      data-mode="minimal"
+      data-inode="${dotContentMap.inode}"
+      data-field-name="title"      
+    #end>$!{dotContentMap.title}
+  </h1>
+
+  #if ($UtilMethods.isSet($dotContentMap.subtitle))
+    <h2 class="text-left" style="color: #ffffff;">
+        $!{dotContentMap.subtitle}
+    </h2>
+  #end
+
+  #if ($UtilMethods.isSet($dotContentMap.subheading))
+    <h3 class="text-left" style="color: #ffffff;">
+        $!{dotContentMap.subheading}
+    </h3>
+  #end
+
+  #if ($UtilMethods.isSet($dotContentMap.buttonName) && $UtilMethods.isSet($dotContentMap.buttonLink))
+    <button>
+      <a href="$!{dotContentMap.buttonLink}">
+        $!{dotContentMap.buttonName}
+      </a>
+    </button>
+  #end
+</div>
