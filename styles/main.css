@@ -47,6 +47,15 @@ h3 {
   background: url('../../assets/images/GettyImages-1051015366.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 40vh;
+  padding: 2rem 0;
+}
+.fest-banner-title {
+  text-shadow: 2px 2px 6px #000000;
+}
+.fest-callout {
+  margin-top: 3rem;
+  padding-left: 1rem;
 }
 .btn-primary {
   background: #b1005d;
